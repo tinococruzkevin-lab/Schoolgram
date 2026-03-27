@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+}
+
+/* LOGIN */
+.login-box {
+  width: 90%;
+  max-width: 350px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.logo {
+  font-family: cursive;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #3897f0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* FEED */
+.header {
+  text-align: center;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  background: white;
+}
+
+.post {
+  background: white;
+  margin-bottom: 15px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.post-header img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-img {
+  width: 100%;
+}
+
+.actions {
+  padding: 10px;
+  font-size: 22px;
+}
+
+.actions span {
+  margin-right: 10px;
+  cursor: pointer;
+}

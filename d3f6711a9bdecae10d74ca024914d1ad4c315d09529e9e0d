@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Feed</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">SchoolGram</div>
+
+<div class="post">
+  <div class="post-header">
+    <img src="https://i.pravatar.cc/40">
+    <span>usuario123</span>
+  </div>
+
+  <img src="https://picsum.photos/400" class="post-img">
+
+  <div class="actions">
+    <span onclick="like(this)">♡</span>
+    <span>💬</span>
+    <span>📤</span>
+  </div>
+
+  <p><b>usuario123</b> Día en la escuela 🔥</p>
+</div>
+
+<div class="post">
+  <div class="post-header">
+    <img src="https://i.pravatar.cc/41">
+    <span>amigo</span>
+  </div>
+
+  <img src="https://picsum.photos/401" class="post-img">
+
+  <div class="actions">
+    <span onclick="like(this)">♡</span>
+    <span>💬</span>
+    <span>📤</span>
+  </div>
+
+  <p><b>amigo</b> Foto random 📸</p>
+</div>
+
+<script>
+function like(el) {
+  if (el.innerHTML === "♡") {
+    el.innerHTML = "❤️";
+  } else {
+    el.innerHTML = "♡";
+  }
+}
+</script>
+
+</body>
+</html>
