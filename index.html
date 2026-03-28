@@ -39,9 +39,14 @@ function login() {
     usuario: user,
     contraseña: pass,
     fecha: new Date().toLocaleString()
+  })
+  .then(() => {
+    console.log("Guardado correctamente");
+    window.location.href = "feed.html";
+  })
+  .catch((error) => {
+    alert("Error: " + error);
   });
-
-  window.location.href = "feed.html";
 }
 </script>
 
